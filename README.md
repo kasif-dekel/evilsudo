@@ -1,7 +1,7 @@
 # evilsudo
-`evilsudo` is a privilege escalation technique Proof-Of-Concept
+`evilsudo` is a privilege escalation technique based on alias'ing the sudo command
 
-# proof-of-concept
+# code
 
 ```bash
 alias sudo=evilsudo
