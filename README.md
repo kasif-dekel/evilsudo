@@ -1,5 +1,5 @@
 # evilsudo
-`evilsudo` is a privilege escalation technique based on alias'ing the sudo command
+`evilsudo` is a privilege escalation technique based on alias'ing ("hooking") the sudo command
 
 # code
 
