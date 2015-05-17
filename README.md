@@ -23,4 +23,5 @@ function evilsudo() {
 		$(which sudo)
 	fi
 }
+#most people ask about it so: the usage of $(which sudo) is because `sudo` is "hooked"
 ````
